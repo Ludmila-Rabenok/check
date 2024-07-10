@@ -1,0 +1,5 @@
+<aspectj>
+    <aspects>
+        <aspect name="aspectj.MyAspect"/>
+    </aspects>
+</aspectj>
