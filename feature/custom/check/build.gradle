@@ -28,7 +28,6 @@ dependencies {
 
     compile group: 'org.aspectj', name: 'aspectjrt', version: '1.9.6'
     compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.6'
-//    ajc 'org.aspectj:aspectjtools:1.9.6'
 
     compileOnly 'org.projectlombok:lombok:1.18.26'
     annotationProcessor 'org.projectlombok:lombok:1.18.26'
