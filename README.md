@@ -1,9 +1,9 @@
 # check
 
-#####Консольное приложение, реализующее функционал формирования чека в магазине
+***Консольное приложение, реализующее функционал формирования чека в магазине***
 
 ---
-###entry-core:
+***entry-core***:
 
 запуск:
 
@@ -26,7 +26,8 @@ java main.java.ru.clevertec.check.CheckRunner [args]
 При формировании чека товары уменьшаются (в CSV файле) на запрошенное количество.
 
 ---
-###entry-database:
+***entry-database***:
+
 *Gradle*
 
 *PostgreSQL*
@@ -42,7 +43,8 @@ DDL/DML операции хранятся в файле `src/main/resources/data
 Используется только JDBC. Использован паттерн Singleton.
 
 ---
-###entry-rest:
+***entry-rest***:
+
 *Servlets*
 
 *Junit*
@@ -55,7 +57,7 @@ DDL/DML операции хранятся в файле `src/main/resources/data
 Юнит-тестами покрыты методы в пяти серверных классах.
 
 ---
-###custom:
+***custom***:
 
 *Lomboc*
 
